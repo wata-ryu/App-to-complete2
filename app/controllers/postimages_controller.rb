@@ -25,7 +25,6 @@ class PostimagesController < ApplicationController
     @postimage.destroy
     redirect_to '/postimages'
   end
-  
   # 投稿データのストロングパラメータ
   private
 
